@@ -90,7 +90,8 @@ class TopicoService(private var topicos: List<Topico> = ArrayList(),
             autor = topico.autor,
             curso = topico.curso,
             respostas = topico.respostas,
-            status = topico.status
+            status = topico.status,
+            dataCriacao = topico.dataCriacao
         ))
     }
 }
